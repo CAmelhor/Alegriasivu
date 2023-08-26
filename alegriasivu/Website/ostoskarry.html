@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alegria Bonito</title>
+    <link rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <section id="header">
+        <a href="#"><img src="kuvat/alegria (1).png" class="logo" ></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Koti</a></li>
+                <li><a href="kauppa.html">Kauppa</a></li>
+                <li><a href="blogi.html">Blogi</a></li>
+                <li><a href="meista.html">Meistä</a></li>
+                <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+                <li id="koti-valikko"><a class="active" href="ostoskarry.html"><i class="fa-sharp fa-solid fa-shop"></i>Cart</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">  
+            <a href="cart.html"><i class="fa-sharp fa-solid fa-shop"></i>Koti</a> 
+            <i id="bar" class="fas fa-outdent"></i> 
+        </div>
+    </section>
+
+    <section id="page-header" class="cart-header">
+        <h2>Tarvitsetko apua?</h2>
+        <h1>Me vastaa kaikkiin viesteihin</h1>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Tuote</td>
+                    <td>Kuva</td>
+                    <td>Hinta</td>
+                    <td>määrä</td>
+                    <td>yhteensä</td>
+                    <td>Poista</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alegria T-shirt</td>
+                    <td><img src="kuvat/tuote/T-kuva.webp" alt=""></td>
+                    <td>45€ </td>
+                    <td><input type="number" value="1"></td>
+                    <td>45€</td>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                </tr>
+                <tr>
+                    <td>Joga T-shirt</td>
+                    <td><img src="kuvat/tuote/t-shirt1.webp" alt=""></td>
+                    <td>45€ </td>
+                    <td><input type="number" value="1"></td>
+                    <td>45€</td>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                </tr>
+                <tr>
+                    <td>Bonito T-shirt</td>
+                    <td><img src="kuvat/tuote/jbshirt.avif" alt=""></td>
+                    <td>45€ </td>
+                    <td><input type="number" value="1"></td>
+                    <td>45€</td>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+     <section id="cart-add" class="section-p1">
+        <div id="koodi">
+            <h3>Lahjakortti tai alennuskoodi</h3>
+            <div>
+                <input type="text" placeholder="Lisää koodi">
+                <button class="painike1">Lisää</button>
+            </div>
+        </div>
+        <div id="yhteensa">
+            <h3>Kori yhteensä</h3>
+            <table>
+                <tr>
+                    <td>Yhteensä</td>
+                    <td>135€</td>
+                </tr>
+                <tr>
+                    <td>Toimitus</td>
+                    <td>10€</td> 
+                </tr>
+                <tr>
+                    <td><strong>Kokonaissumma</strong></td>
+                    <td><strong>145</strong></td> 
+                </tr>
+                
+            </table>
+            <button class="painike1">Siirry maksamaan</button>
+        </div>
+     </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="kuvat/alegriaa.jpg" alt="">
+            <h4>Yhteystiedot</h4>
+            <p>Puhelinnumero: <strong> 044044044</strong></p>
+            <p>Osoite: <strong>Helsinki</strong></p>
+            <div class="seuraa">
+                <h4>Seuraa meitä</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Minun tilini</h4>
+            <a href="#">Kirjaudu</a>
+            <a href="#">Tarkastele tilaus</a>
+            <a href="#">Apu</a>
+        </div>
+
+        <div class="col">
+            <h4>Tietoa Alegria Bonito</h4>
+            <a href="#">Alegria</a>
+            <a href="#">Jalkapallo myymälä</a>
+            <a href="#">Fudis ystävä</a>
+        </div>
+
+        <div class="col lataa">
+            <h4>Lataa Sovellus</h4>
+            <p>App storesta tai Google play</p>
+            <div class="rivit">
+                <img src="kuvat/apple.jpg" alt="">
+                <img src="kuvat/gplay.jpg" alt="">
+            </div>
+            <p>Maksut</p>
+            <img src="kuvat/maksu.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023 alegriabonito®. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
