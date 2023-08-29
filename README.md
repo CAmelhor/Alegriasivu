@@ -1,6 +1,6 @@
 # Alegriasivu
 Projektissa löin Kauppasivu kielille html, css ja js käyttäen.
-
+Näin lyhyesti
 Kotisivun Pääsivu:
 ![kötisivu](https://github.com/CAmelhor/Alegriasivu/assets/134746415/9ff000c0-3f10-4724-950c-f4800ec6d560)
 
